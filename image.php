@@ -2,7 +2,7 @@
 error_reporting(0);  ?>
 <!DOCTYPE html>
 <html lang="en">
-<head><title>Document</title>
+<head><title>Documents</title>
 </head> <body>
    <form action=""method="post" enctype="multipart/form-data">
        <input type="file" name="uploadfile" value=""/>

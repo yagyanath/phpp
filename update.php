@@ -21,6 +21,6 @@ $data= mysqli_query($conn,$query);
 if($data){echo"<font color='green'>updated succesfully.<a href='display.php'>check update";}
 else{echo"<font color='red'>button press.<a href='display.php'> check update here";}
 }
-else{echo"<font color='blue'>click on update";}
+else{echo"<font color='blue'>click on for update";}
 ?>
 </body></html>

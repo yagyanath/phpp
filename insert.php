@@ -22,6 +22,6 @@ move_uploaded_file($tempname,$folder);
 if($rn!="" &&$sn!=""&&$cl!=""&&$filename!=""){
 $query="INSERT INTO student values('$rn','$sn','$cl','$folder')";
 $data=mysqli_query($conn,$query);
-if($data){echo "data insetred";}    }
-else{echo"<br> All fields required";}  }
+if($data){echo "data insetred !";}    }
+else{echo"<br> All fields required!";}  }
 ?></form></body> </html>
